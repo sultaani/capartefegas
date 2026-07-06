@@ -1,0 +1,42 @@
+{
+  "name": "capartefegas",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx src/lib/db/migrate.ts",
+    "db:seed": "tsx src/lib/db/seed.ts",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "next": "16.2.9",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "drizzle-orm": "0.45.2",
+    "postgres": "3.4.5",
+    "bcryptjs": "2.4.3",
+    "jose": "5.9.6",
+    "zod": "3.23.8",
+    "lucide-react": "0.383.0",
+    "recharts": "2.13.3",
+    "cloudinary": "2.10.0",
+    "clsx": "2.1.1"
+  },
+  "devDependencies": {
+    "typescript": "5.6.3",
+    "tsx": "4.22.4",
+    "drizzle-kit": "0.31.10",
+    "@types/node": "22.9.0",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@types/bcryptjs": "2.4.6",
+    "tailwindcss": "3.4.14",
+    "postcss": "8.5.15",
+    "autoprefixer": "10.4.20",
+    "dotenv": "16.4.5"
+  }
+}

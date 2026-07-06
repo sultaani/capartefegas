@@ -1,0 +1,43 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="Flask" />
+          <option value="Flask-SQLAlchemy" />
+          <option value="Flask-Migrate" />
+          <option value="Flask-Login" />
+          <option value="Flask-Session" />
+          <option value="Flask-CORS" />
+          <option value="Flask-Mail" />
+          <option value="psycopg2-binary" />
+          <option value="SQLAlchemy" />
+          <option value="redis" />
+          <option value="Werkzeug" />
+          <option value="python-dotenv" />
+          <option value="Flask-Limiter" />
+          <option value="Flask-Talisman" />
+          <option value="email-validator" />
+          <option value="bleach" />
+          <option value="reportlab" />
+          <option value="PyPDF2" />
+          <option value="openpyxl" />
+          <option value="pandas" />
+          <option value="requests" />
+          <option value="pytz" />
+          <option value="python-dateutil" />
+          <option value="gunicorn" />
+          <option value="pytest" />
+          <option value="pytest-flask" />
+          <option value="pytest-cov" />
+          <option value="authlib" />
+          <option value="httpx" />
+          <option value="Flask-WTF" />
+          <option value="WTForms" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
