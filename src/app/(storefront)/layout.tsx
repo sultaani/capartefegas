@@ -9,6 +9,7 @@ import { Navbar } from "@/components/storefront/Navbar";
 import { Footer } from "@/components/storefront/Footer";
 import { CartDrawer } from "@/components/storefront/CartDrawer";
 import type { SiteSettings } from "@/lib/types";
+import { Analytics } from "@vercel/analytics/react";
 
 const syne = Syne({ subsets: ["latin"], weight: ["600", "700", "800"], variable: "--font-syne" });
 const manrope = Manrope({ subsets: ["latin"], weight: ["300", "400", "500", "600", "700"], variable: "--font-manrope" });
@@ -53,6 +54,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           <Footer settings={settings} />
           <CartDrawer />
         </CartProvider>
+        <Analytics />
       </body>
     </html>
   );
