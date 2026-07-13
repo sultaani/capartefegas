@@ -8,6 +8,13 @@
       "when": 1782549538936,
       "tag": "0000_sturdy_sentinel",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1783721521899,
+      "tag": "0001_majestic_hedge_knight",
+      "breakpoints": true
     }
   ]
 }
